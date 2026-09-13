@@ -4,8 +4,6 @@
 
 Be bored. Be better. Bespoke.
 
-A bingo board of activities to learn how to become the best you. 
-
 > [!NOTE]
 > This is a template for your startup application. You must modify this `README.md` file for each phase of your development. You only need to fill in the section for each deliverable when that deliverable is submitted in Canvas. Without completing the section for a deliverable, the TA will not know what to look for when grading your submission. Feel free to add additional information to each deliverable description, but make sure you at least have the list of rubric items and a description of what you did for each item.
 
@@ -14,7 +12,9 @@ A bingo board of activities to learn how to become the best you.
 
 ### Elevator pitch
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+BeBoard is a web application that is developed to train people in any skill they wish to acquire in a gamified format. Each task fills a square on a board, which is selected at random and functions as a bingo-like game with extra points awarded for daily consistency. The boards have varying sizes, themes, and time formats. For those who wish to give it a try, boards that can be completed in 5 minutes are included. For those who want help with habit building, a 90 day board is available, where a random task on the board will be selected for each day.
+
+Sometimes self improvement requires one to unplug, and be bored.
 
 ### Design
 
