@@ -23,10 +23,32 @@ Sometimes self improvement requires one to unplug, and be bored.
 The design will be minimal and should be calming. The main feature is prominently displayed on the front page, and has an easy to use UI. Clicking on a card will show the full challenge. When a challenge is started, it will automatically open one and set a time limit to complete the task in. This timer will countdown server side.
 
 ```mermaid
-sequenceDiagram
-    actor You
-    actor Website
-    You->>Website: Replace this with your design
+erDiagram
+    USERS ||--o{ BOARDS : creates
+    USERS ||--o{ SCORES : submits
+    BOARDS ||--o{ TILES : contains
+    BOARDS ||--o{ SCORES : has
+
+    USERS {
+        int id
+        string username
+    }
+
+    BOARDS {
+        int id
+        string name
+        int size
+    }
+
+    TILES {
+        int id
+        string word
+    }
+
+    SCORES {
+        int id
+        int time_seconds
+    }
 ```
 
 ### Key features
