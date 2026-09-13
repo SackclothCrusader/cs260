@@ -31,9 +31,9 @@ sequenceDiagram
 
 ### Key features
 
-- Describe your key feature
-- Describe your key feature
-- Describe your key feature
+- Gamified task boards that award points upon task completion in a bingo-style game
+- Live-updating leaderboard
+- Premade boards and the ability to make your own board, each with varying completion time and size
 
 ### Technologies
 
