@@ -39,12 +39,12 @@ sequenceDiagram
 
 I am going to use the required technologies in the following ways.
 
-- **HTML** - Webpage layout/ structuring. About page
-- **CSS** - Cool/ calming colors, minimal design. Try black, grey, blue, green
-- **React** - Board functionality
-- **Service** - Making the website work with custom board access
-- **DB/Login** - Login to save board progress, daily streaks
-- **WebSocket** - TBD
+- **HTML** - Webpage layout/ structuring. Information pages and page layouts will be dictated by HTML.
+- **CSS** - Cool/ calming colors, with a minimal design. One or many of the following themes should be included: black, grey, blue, green.
+- **React** - Board webapp functionality will be done in JS.
+- **Service** -  Users will be able to access boards that they themselves create and/or have progress on. It will use the API at (https://api.crossref.org/works) for scholarly articles regarding attention and self help.
+- **DB/Login** - Login to save board progress and custom boards.
+- **WebSocket** - A live-updating leaderboard for premade boards and lifetime total score.
 
 ## 🚀 Specification Deliverable
 
